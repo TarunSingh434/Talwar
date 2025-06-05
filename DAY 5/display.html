@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Display Example</title>
+    <style>
+        .item{
+            background-color: orange;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            }
+
+            .flex-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: red;
+            }
+        .item img {
+           /* width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;*/
+        }    
+
+        .item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item">
+            <img src="https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg" alt="sample 1">
+            <p>JOHN WICK</p>
+        </div>
+        <div class="item">
+            <img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg" alt="sample 2">
+            <p>THE AVENGERS</p>
+        </div>
+        <div class="item">
+            <img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg" alt="sample 3">
+            <p>INCEPTION</p>
+        </div>
+        <div class="item">INTERSTELLAR</div>
+    </div>
+</body>
+</html>

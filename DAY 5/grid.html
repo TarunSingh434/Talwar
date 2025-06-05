@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            gap: 10px;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+        .item {
+            background-color: #007bff;
+            color: #fff;
+            font-size: larger;
+            height: 100px;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .item1 {
+            background-color: red;
+        }
+
+        .item2 {
+            background-color: yellow;
+        }
+
+        .item3 {
+            background-color: blue;
+        }
+
+        .item4 {
+            background-color: brown;
+        }
+
+        .item5 {
+            background-color: green;
+        }
+
+        .item6 {
+            background-color: violet;
+        }
+    </style>
+
+>    <div class="grid-container">
+        <div class="item1">SALMAN KHAN</div>
+        <div class="item2">TOM CRUISE</div>
+        <div class="item3">VIN DIESEL</div>
+        <div class="item4">JOHNNY DEPP</div>
+        <div class="item5">VIDYUT JAMMWAL</div>
+        <div class="item6">KEANU REEVES</div>
+    </div>
+</body>
+</html>

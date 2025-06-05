@@ -1,0 +1,19 @@
+body{
+    background-color: blueviolet;
+}
+
+.heading{
+    font-size: medium;
+}
+
+div p{
+    background-image: url('https://unsplash.com/photos/a-man-and-a-woman-standing-on-top-of-a-mountain-GlO2dgCtJXk');
+    background-size: cover;
+    background-position: top right;
+    font-family:'Times New Roman' , Times , serif;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+    border: 1px double;
+    border-radius: 10px;
+}
